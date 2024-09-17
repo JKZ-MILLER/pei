@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(135deg, #ff0000, #4100ff, #001aff); /* Gradiente suave de rosa, dourado e azul claro */
+    color: #333333; /* Cor escura para garantir boa legibilidade */
+    font-family: "Playfair Display", serif; /* Fonte elegante e clássica */
+    display: flex;
+    justify-content: center;   /* Centraliza horizontalmente */
+    align-items: center;       /* Centraliza verticalmente */
+    height: 100vh; /* Ajusta a altura para preencher a tela */
+    margin: 0;
+}
+
+main {
+    text-align: center;
+    max-width: 90%; /* Ajuste para se adaptar melhor ao conteúdo */
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência para o conteúdo */
+    padding: 20px;
+    border-radius: 15px; /* Bordas mais arredondadas para um visual mais suave */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra suave e elegante ao container principal */
+}
+
+button {
+    background-color: #ff0000; /* Rosa suave para chamar a atenção */
+    color: #ffffff; /* Cor clara para texto do botão */
+    border: 2px solid #b84a4a; /* Borda rosa mais clara para contraste */
+    padding: 10px 20px;
+    border-radius: 8px; /* Bordas arredondadas para suavizar o visual */
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    outline: none; /* Remove o contorno padrão ao focar no botão */
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d81b60; /* Rosa mais escuro para o hover */
+    border-color: #f06292; /* Borda mais clara para hover */
+    transform: scale(1.05); /* Leve aumento de tamanho no hover */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+img {
+    max-width: 100%; /* Ajuste para garantir que as imagens não ultrapassem os limites do contêiner */
+    border-radius: 15px; /* Bordas arredondadas para imagens */
+    margin-bottom: 15px; /* Espaçamento inferior entre a imagem e o texto */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra suave para as imagens */
+}
+
+/* Cores de destaque para parágrafos e títulos */
+h1, h2, h3 {
+    color: #f8bbd0; /* Rosa claro para chamar atenção */
+    font-family: "Playfair Display", serif; /* Fonte elegante e clássica */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #333333; /* Cor escura para manter a legibilidade do texto */
+}
